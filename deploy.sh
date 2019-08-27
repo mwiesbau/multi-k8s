@@ -11,5 +11,5 @@ docker push mwiesbau/comples-worker:$SHA
 
 kubectl apply -f k8s
 kubectl set image deployments/server-deployment server=mwiesbau/complex-server:$SHA
-kubectl set image deployments/client-deployment server=mwiesbau/complex-client:$SHA
-kubectl set image deployments/worker-deployment server=mwiesbau/complex-worker:$SHA
+kubectl set image deployments/client-deployment client=mwiesbau/complex-client:$SHA
+kubectl set image deployments/worker-deployment worker=mwiesbau/complex-worker:$SHA
