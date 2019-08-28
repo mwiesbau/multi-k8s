@@ -10,3 +10,9 @@ spec:
   commonName: k8s.wiesbauer.me
   dnsNames:
     - k8s.wiesbauer.me
+  acme:
+    config:
+      - http01:
+          ingressClass: nginx
+        domains:
+          - k8s.wiesbauerme
