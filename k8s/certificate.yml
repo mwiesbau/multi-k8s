@@ -15,4 +15,4 @@ spec:
       - http01:
           ingressClass: nginx
         domains:
-          - k8s.wiesbauerme
+          - k8s.wiesbauer.me
