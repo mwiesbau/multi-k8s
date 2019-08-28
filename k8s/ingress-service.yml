@@ -11,7 +11,7 @@ spec:
   tls:
     - hosts:
         - k8s.wiesbauer.me
-      secretName: k8s-multi-com
+      secretName: k8s-wiesbauer-me
   rules:
     - host: k8s.wiesbauer.me
       http:
