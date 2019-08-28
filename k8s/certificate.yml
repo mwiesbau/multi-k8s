@@ -6,7 +6,7 @@ spec:
   secretName: k8s-multi-com
   issuerRef:
     name: letsencrypt-prod
-    type: ClusterIssuer
+    kind: ClusterIssuer
   commonName: k8s.wiesbauer.me
   dnsNames:
     - k8s.wiesbauer.me
